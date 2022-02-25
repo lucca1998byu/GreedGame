@@ -18,3 +18,5 @@ Joseph Anucha
     If the player touches a rock they lose a point.
     Gems and rocks are removed when the player touches them.
     The game continues until the player closes the window.
+
+----------------------------------NOTE: change game directory-----------------
