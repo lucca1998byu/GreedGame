@@ -3,7 +3,7 @@ from random import *
 import tkinter.messagebox
 
 
-
+#Megan Contribution
 class ScoreBoard():
     
     def __init__(self,parent):
@@ -25,7 +25,7 @@ class ScoreBoard():
         self.score += scoreStatus
         self.scoreVar.set(self.score)
 
-
+#Emer Part
 class ItemsFallingFromSky():
     
     def __init__(self,parent,canvas,player,board):
@@ -81,7 +81,7 @@ class ItemsFallingFromSky():
         return False                                                                    # touching not
     
 
-
+#Dittrich and Harris Part
 class TheGame(ItemsFallingFromSky,ScoreBoard):
     
     def __init__(self,parent):
@@ -108,7 +108,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         # start poping falling items
         self.createEnemies()
         
-        
+        #Joseph Anucha
     def keyMoving(self, event):        
         if (event.char == "z") and (self.canvas.coords(self.playerChar)[0] > 50):
             self.canvas.move(self.playerChar, -50, 0)            
