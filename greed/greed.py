@@ -108,7 +108,7 @@ class TheGame(ItemsFallingFromSky,ScoreBoard):
         # start poping falling items
         self.createEnemies()
         
-        
+        #Joseph Anucha
     def keyMoving(self, event):        
         if (event.char == "z") and (self.canvas.coords(self.playerChar)[0] > 50):
             self.canvas.move(self.playerChar, -50, 0)            
