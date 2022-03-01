@@ -20,3 +20,5 @@ Joseph Anucha
     The game continues until the player closes the window.
 
 ----------------------------------NOTE: change game directory-----------------
+
+PS: you don't need to change the directory anymore. (last version)
