@@ -4,7 +4,7 @@ CSE 210 Team Assigment
   --Team9--
 Emer Rivero
 Megan Rivero
-Lucca Ditrish
+Lucca Dittrich
 Wade Harris
 Joseph Anucha
 
